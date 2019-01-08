@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <script src="https://www.gstatic.com/firebasejs/5.7.2/firebase.js"></script>
+
+    <title>APP TV</title>
+</head>
+
+<body>
+
+    <header class="fixed">
+
+        <div class="col s12">
+            <nav class="nav-extended light-blue">
+                <div class="nav-wrapper">
+                    <a href="index.html" class="white-text flow-text">Diarios Argentinos</a>
+                    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons white-text">menu</i></a>
+
+                </div>
+
+            </nav>
+
+            <ul class="sidenav" id="mobile-demo">
+                <li><a href="sass.html">Sass</a></li>
+                <li><a href="badges.html">Components</a></li>
+                <li><a href="collapsible.html">JavaScript</a></li>
+            </ul>
+
+        </div>
+
+
+    </header>
+    <div class="main" id="contenedor">
+        <div class="container" >
+            <div class="row">
+                <div class="img col s3">
+                    <img src="nodal.png" alt="" onclick="abrirIframe('https://www.nodal.am/')"> 
+                </div>
+
+                <div class="img col s3">
+                        <img src="eom" alt="" onclick="abrirIframe('https://www.elordenmundial.com/')"> 
+                </div>
+
+                <div class="img col s3">
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <footer>
+        
+    </footer>
+
+    <script src="js/index.js"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+
+</html>
